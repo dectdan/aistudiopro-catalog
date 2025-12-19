@@ -1,0 +1,123 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-12-18T00:00:00Z",
+  "description": "AI Studio Pro Curated Models - Tested on RTX 3060 12GB",
+  "models": [
+    {
+      "id": "phi-4-iq4",
+      "name": "Phi-4 IQ4_NL",
+      "category": "text",
+      "vram_gb": 4.2,
+      "size_gb": 2.4,
+      "description": "Best local text model for RTX 3060. Excellent for chat and coding.",
+      "url": "https://huggingface.co/bartowski/phi-4-GGUF/resolve/main/phi-4-IQ4_NL.gguf",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "phi-3.5-q8",
+      "name": "Phi-3.5 Mini Q8",
+      "category": "text",
+      "vram_gb": 5.1,
+      "size_gb": 3.8,
+      "description": "Huge 128K context window. Good for long documents.",
+      "url": "https://huggingface.co/bartowski/Phi-3.5-mini-instruct-GGUF/resolve/main/Phi-3.5-mini-instruct-Q8_0.gguf",
+      "is_zipped": false,
+      "recommended": false
+    },
+    {
+      "id": "llama-3.1-8b-q4",
+      "name": "Llama 3.1 8B Q4_K_M",
+      "category": "text",
+      "vram_gb": 7.8,
+      "size_gb": 4.9,
+      "description": "Meta's workhorse. Larger and smarter, needs more VRAM.",
+      "url": "https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "deepseek-coder-6.7b-q5",
+      "name": "DeepSeek Coder 6.7B Q5",
+      "category": "text",
+      "vram_gb": 7.3,
+      "size_gb": 4.7,
+      "description": "Specialized coding model. Best for Python, JavaScript, C#.",
+      "url": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q5_K_M.gguf",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "flux-schnell-q5",
+      "name": "FLUX.1 Schnell Q5",
+      "category": "image",
+      "vram_gb": 11.7,
+      "size_gb": 11.8,
+      "description": "Fast FLUX model. 4 steps = instant images. Needs almost full 12GB VRAM!",
+      "url": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q5_1.gguf",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "flux-dev-q4",
+      "name": "FLUX.1 Dev Q4",
+      "category": "image",
+      "vram_gb": 9.8,
+      "size_gb": 9.2,
+      "description": "Higher quality FLUX. 20 steps, better images but slower.",
+      "url": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q4_K_S.gguf",
+      "is_zipped": false,
+      "recommended": false
+    },
+    {
+      "id": "sdxl-base",
+      "name": "Stable Diffusion XL Base",
+      "category": "image",
+      "vram_gb": 8.2,
+      "size_gb": 6.9,
+      "description": "Classic SDXL. Works with LoRAs. More control than FLUX.",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "kokoro-82m",
+      "name": "Kokoro 82M",
+      "category": "audio",
+      "vram_gb": 0.3,
+      "size_gb": 0.16,
+      "description": "Fast natural TTS. Multiple voices. Best for real-time chat.",
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/kokoro-v0_19.onnx",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "whisper-medium",
+      "name": "Whisper Medium",
+      "category": "audio",
+      "vram_gb": 2.1,
+      "size_gb": 1.5,
+      "description": "Accurate speech recognition. Good for transcription and voice commands.",
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin",
+      "is_zipped": false,
+      "recommended": true
+    }
+  ],
+  "categories": [
+    {
+      "id": "text",
+      "name": "Text Models",
+      "icon": "💬"
+    },
+    {
+      "id": "image",
+      "name": "Image Generation",
+      "icon": "🎨"
+    },
+    {
+      "id": "audio",
+      "name": "Audio (TTS/STT)",
+      "icon": "🔊"
+    }
+  ]
+}
