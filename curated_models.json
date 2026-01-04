@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2025-12-18T00:00:00Z",
+  "last_updated": "2026-01-04T12:15:56.007792Z",
   "description": "AI Studio Pro Curated Models - Tested on RTX 3060 12GB",
   "models": [
     {
@@ -31,7 +31,7 @@
       "category": "text",
       "vram_gb": 7.8,
       "size_gb": 4.9,
-      "description": "Meta's workhorse. Larger and smarter, needs more VRAM.",
+      "description": "Meta\u0027s workhorse. Larger and smarter, needs more VRAM.",
       "url": "https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
       "is_zipped": false,
       "recommended": true
@@ -81,6 +81,28 @@
       "recommended": true
     },
     {
+      "id": "sd15-inpainting",
+      "name": "SD 1.5 Inpainting",
+      "category": "image",
+      "vram_gb": 4.8,
+      "size_gb": 4.2,
+      "description": "Remove and replace parts of images with AI. Upload mask to control what changes.",
+      "url": "https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "realcartoon3d-onnx",
+      "name": "RealCartoon3D ONNX",
+      "category": "image",
+      "vram_gb": 3.8,
+      "size_gb": 3.6,
+      "description": "3D cartoon style images. ONNX optimized for faster generation.",
+      "url": "https://huggingface.co/John6666/realcartoon3d-sdxl-onnx",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
       "id": "kokoro-82m",
       "name": "Kokoro 82M",
       "category": "audio",
@@ -107,17 +129,17 @@
     {
       "id": "text",
       "name": "Text Models",
-      "icon": "💬"
+      "icon": "\uD83D\uDCAC"
     },
     {
       "id": "image",
       "name": "Image Generation",
-      "icon": "🎨"
+      "icon": "\uD83C\uDFA8"
     },
     {
       "id": "audio",
       "name": "Audio (TTS/STT)",
-      "icon": "🔊"
+      "icon": "\uD83D\uDD0A"
     }
   ]
 }
