@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-05T15:56:55.6070674Z",
+  "last_updated": "2026-01-05T16:07:43.9646491Z",
   "description": "AI Studio Pro Curated Models - Tested on RTX 3060 12GB",
   "models": [
     {
@@ -99,6 +99,17 @@
       "size_gb": 19.3,
       "description": "Professional-grade inpainting with SDXL. Sharper results at 1024x1024. Best quality for photo editing.",
       "url": "https://huggingface.co/diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "sam-vit-b",
+      "name": "SAM ViT-Base",
+      "category": "image",
+      "vram_gb": 2,
+      "size_gb": 0.375,
+      "description": "Meta\u0027s Segment Anything Model. Professional object detection for auto-remove masking. Click any object to instantly generate precise masks.",
+      "url": "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth",
       "is_zipped": false,
       "recommended": true
     },
