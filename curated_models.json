@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-04T12:15:56.007792Z",
+  "last_updated": "2026-01-05T15:56:55.6070674Z",
   "description": "AI Studio Pro Curated Models - Tested on RTX 3060 12GB",
   "models": [
     {
@@ -85,9 +85,20 @@
       "name": "SD 1.5 Inpainting",
       "category": "image",
       "vram_gb": 4.8,
-      "size_gb": 4.2,
+      "size_gb": 14.1,
       "description": "Remove and replace parts of images with AI. Upload mask to control what changes.",
       "url": "https://huggingface.co/runwayml/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "sdxl-inpainting",
+      "name": "SDXL Inpainting",
+      "category": "image",
+      "vram_gb": 8.5,
+      "size_gb": 19.3,
+      "description": "Professional-grade inpainting with SDXL. Sharper results at 1024x1024. Best quality for photo editing.",
+      "url": "https://huggingface.co/diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
       "is_zipped": false,
       "recommended": true
     },
@@ -100,7 +111,7 @@
       "description": "3D cartoon style images. ONNX optimized for faster generation.",
       "url": "https://huggingface.co/John6666/realcartoon3d-sdxl-onnx",
       "is_zipped": false,
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "kokoro-82m",
