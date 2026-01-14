@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-05T19:02:24.0224197Z",
+  "last_updated": "2026-01-14T19:58:23.8211895Z",
   "description": "AI Studio Pro Curated Models - Tested on RTX 3060 12GB",
   "models": [
     {
@@ -109,9 +109,9 @@
       "vram_gb": 3.8,
       "size_gb": 3.6,
       "description": "3D cartoon style images. ONNX optimized for faster generation.",
-      "url": "https://huggingface.co/John6666/realcartoon3d-sdxl-onnx",
+      "url": "https://pub-b23c8b9a2d9e45f79eaf3f2bffcdd079.r2.dev/RealCartoon3D-onnx.zip",
       "is_zipped": false,
-      "recommended": false
+      "recommended": true
     },
     {
       "id": "kokoro-82m",
