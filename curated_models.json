@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-16T14:20:18.3082673Z",
+  "last_updated": "2026-01-16T16:22:35.2072504Z",
   "description": "AI Studio Pro Curated Models - Tested on RTX 3060 12GB",
   "models": [
     {
@@ -46,17 +46,6 @@
       "url": "https://huggingface.co/TheBloke/deepseek-coder-6.7B-instruct-GGUF/resolve/main/deepseek-coder-6.7b-instruct.Q5_K_M.gguf",
       "is_zipped": false,
       "recommended": true
-    },
-    {
-      "id": "flux-schnell-q5",
-      "name": "FLUX.1 Schnell Q5",
-      "category": "image",
-      "vram_gb": 11.7,
-      "size_gb": 11.8,
-      "description": "Fast FLUX model. 4 steps = instant images. Needs almost full 12GB VRAM!",
-      "url": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q5_1.gguf",
-      "is_zipped": false,
-      "recommended": false
     },
     {
       "id": "flux-dev-q4",
