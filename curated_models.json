@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-14T20:01:40.3191965Z",
+  "last_updated": "2026-01-16T14:20:18.3082673Z",
   "description": "AI Studio Pro Curated Models - Tested on RTX 3060 12GB",
   "models": [
     {
@@ -56,7 +56,7 @@
       "description": "Fast FLUX model. 4 steps = instant images. Needs almost full 12GB VRAM!",
       "url": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q5_1.gguf",
       "is_zipped": false,
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "flux-dev-q4",
@@ -67,7 +67,7 @@
       "description": "Higher quality FLUX. 20 steps, better images but slower.",
       "url": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q4_K_S.gguf",
       "is_zipped": false,
-      "recommended": false
+      "recommended": true
     },
     {
       "id": "sdxl-base",
