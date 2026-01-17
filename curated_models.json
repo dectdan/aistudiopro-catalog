@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-17T20:45:11.4709562Z",
+  "last_updated": "2026-01-17T21:05:39.8954696Z",
   "description": "AI Studio Pro Curated Models - Tested on RTX 3060 12GB",
   "models": [
     {
@@ -76,7 +76,7 @@
       "vram_gb": 10.8,
       "size_gb": 8.3,
       "description": "Smartest model for complex analysis. Legal reasoning, financial modeling, advanced data tasks. Uses nearly all 12GB VRAM - close browser/apps before loading.",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF/resolve/main/qwen2.5-14b-instruct-q4_k_m.gguf",
+      "url": "https://huggingface.co/bartowski/Qwen2.5-14B-Instruct-GGUF/resolve/main/Qwen2.5-14B-Instruct-Q4_K_M.gguf",
       "is_zipped": false,
       "recommended": true
     },
