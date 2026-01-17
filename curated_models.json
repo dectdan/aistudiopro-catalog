@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-17T18:23:49.5256289Z",
+  "last_updated": "2026-01-17T18:27:41.2021899Z",
   "description": "AI Studio Pro Curated Models - Tested on RTX 3060 12GB",
   "models": [
     {
@@ -76,7 +76,7 @@
       "vram_gb": 4.8,
       "size_gb": 14.1,
       "description": "Remove and replace parts of images with AI. Upload mask to control what changes.",
-      "url": "https://huggingface.co/sd-legacy/stable-diffusion-inpainting/resolve/main/sd-v1-5-inpainting.ckpt",
+      "url": "https://huggingface.co/sd-legacy/stable-diffusion-inpainting",
       "is_zipped": false,
       "recommended": true
     },
