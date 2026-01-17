@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-17T18:27:41.2021899Z",
+  "last_updated": "2026-01-17T19:47:56.366125Z",
   "description": "AI Studio Pro Curated Models - Tested on RTX 3060 12GB",
   "models": [
     {
@@ -23,7 +23,7 @@
       "description": "Huge 128K context window. Good for long documents.",
       "url": "https://huggingface.co/bartowski/Phi-3.5-mini-instruct-GGUF/resolve/main/Phi-3.5-mini-instruct-Q8_0.gguf",
       "is_zipped": false,
-      "recommended": false
+      "recommended": true
     },
     {
       "id": "llama-3.1-8b-q4",
@@ -66,6 +66,17 @@
       "size_gb": 6.9,
       "description": "Classic SDXL. Works with LoRAs. More control than FLUX.",
       "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "sd15-base",
+      "name": "Stable Diffusion 1.5",
+      "category": "image",
+      "vram_gb": 4.5,
+      "size_gb": 4.2,
+      "description": "Classic SD 1.5 base model. Fast img2img at 512x512. Works with thousands of community LoRAs.",
+      "url": "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors",
       "is_zipped": false,
       "recommended": true
     },
