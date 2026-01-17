@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-17T20:33:39.190407Z",
+  "last_updated": "2026-01-17T20:45:11.4709562Z",
   "description": "AI Studio Pro Curated Models - Tested on RTX 3060 12GB",
   "models": [
     {
@@ -32,7 +32,7 @@
       "vram_gb": 6.2,
       "size_gb": 4.4,
       "description": "BEST for data analysis, Excel, accounting, and math. Excellent reasoning and structured data understanding.",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF/resolve/main/qwen2.5-7b-instruct-q4_k_m.gguf",
+      "url": "https://huggingface.co/bartowski/Qwen2.5-7B-Instruct-GGUF/resolve/main/Qwen2.5-7B-Instruct-Q4_K_M.gguf",
       "is_zipped": false,
       "recommended": true
     },
@@ -43,7 +43,7 @@
       "vram_gb": 7.1,
       "size_gb": 5.2,
       "description": "Higher quality Qwen 2.5. Better accuracy for complex data/legal/financial analysis than Q4.",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF/resolve/main/qwen2.5-7b-instruct-q5_k_m.gguf",
+      "url": "https://huggingface.co/bartowski/Qwen2.5-7B-Instruct-GGUF/resolve/main/Qwen2.5-7B-Instruct-Q5_K_M.gguf",
       "is_zipped": false,
       "recommended": true
     },
@@ -184,9 +184,9 @@
       "name": "Epic Realism",
       "category": "image",
       "vram_gb": 4.5,
-      "size_gb": 2,
+      "size_gb": 2.1,
       "description": "Cinematic photorealistic SD 1.5. Great for dramatic portraits and landscapes.",
-      "url": "https://huggingface.co/emilianJR/epiCRealism/resolve/main/epiCRealismNaturalSin.safetensors",
+      "url": "https://huggingface.co/philz1337x/epicrealism/resolve/main/epicrealism_naturalSinRC1VAE.safetensors",
       "is_zipped": false,
       "recommended": true
     },
