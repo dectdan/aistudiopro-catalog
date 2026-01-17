@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-17T20:14:52.9900967Z",
+  "last_updated": "2026-01-17T20:33:39.190407Z",
   "description": "AI Studio Pro Curated Models - Tested on RTX 3060 12GB",
   "models": [
     {
@@ -173,9 +173,9 @@
       "name": "Anything V5",
       "category": "image",
       "vram_gb": 4.5,
-      "size_gb": 2.3,
+      "size_gb": 2.1,
       "description": "Top anime/manga SD 1.5 model. Vibrant colors, detailed characters. Huge LoRA support.",
-      "url": "https://huggingface.co/stablediffusionapi/anything-v5/resolve/main/anything-v5-PrtRE.safetensors",
+      "url": "https://huggingface.co/ckpt/anything-v5.0/resolve/main/AnythingV5V3_v5PrtRE.safetensors",
       "is_zipped": false,
       "recommended": true
     },
