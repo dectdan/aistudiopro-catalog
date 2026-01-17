@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-01-17T19:47:56.366125Z",
+  "last_updated": "2026-01-17T20:14:52.9900967Z",
   "description": "AI Studio Pro Curated Models - Tested on RTX 3060 12GB",
   "models": [
     {
@@ -22,6 +22,28 @@
       "size_gb": 3.8,
       "description": "Huge 128K context window. Good for long documents.",
       "url": "https://huggingface.co/bartowski/Phi-3.5-mini-instruct-GGUF/resolve/main/Phi-3.5-mini-instruct-Q8_0.gguf",
+      "is_zipped": false,
+      "recommended": false
+    },
+    {
+      "id": "qwen-2.5-7b-q4",
+      "name": "Qwen 2.5 7B Instruct Q4",
+      "category": "text",
+      "vram_gb": 6.2,
+      "size_gb": 4.4,
+      "description": "BEST for data analysis, Excel, accounting, and math. Excellent reasoning and structured data understanding.",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF/resolve/main/qwen2.5-7b-instruct-q4_k_m.gguf",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "qwen-2.5-7b-q5",
+      "name": "Qwen 2.5 7B Instruct Q5",
+      "category": "text",
+      "vram_gb": 7.1,
+      "size_gb": 5.2,
+      "description": "Higher quality Qwen 2.5. Better accuracy for complex data/legal/financial analysis than Q4.",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF/resolve/main/qwen2.5-7b-instruct-q5_k_m.gguf",
       "is_zipped": false,
       "recommended": true
     },
@@ -48,12 +70,34 @@
       "recommended": true
     },
     {
+      "id": "qwen-2.5-14b-q4",
+      "name": "Qwen 2.5 14B Instruct Q4",
+      "category": "text",
+      "vram_gb": 10.8,
+      "size_gb": 8.3,
+      "description": "Smartest model for complex analysis. Legal reasoning, financial modeling, advanced data tasks. Uses nearly all 12GB VRAM - close browser/apps before loading.",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF/resolve/main/qwen2.5-14b-instruct-q4_k_m.gguf",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "flux-schnell-q4",
+      "name": "FLUX.1 Schnell Q4",
+      "category": "image",
+      "vram_gb": 9.8,
+      "size_gb": 9.2,
+      "description": "FASTEST image generation. 4 steps only. Great for quick iterations and testing ideas.",
+      "url": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q4_K_S.gguf",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
       "id": "flux-dev-q4",
       "name": "FLUX.1 Dev Q4",
       "category": "image",
       "vram_gb": 9.8,
       "size_gb": 9.2,
-      "description": "Higher quality FLUX. 20 steps, better images but slower.",
+      "description": "Higher quality FLUX. 20 steps. Better prompt following and detail than Schnell.",
       "url": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q4_K_S.gguf",
       "is_zipped": false,
       "recommended": true
@@ -64,21 +108,98 @@
       "category": "image",
       "vram_gb": 8.2,
       "size_gb": 6.9,
-      "description": "Classic SDXL. Works with LoRAs. More control than FLUX.",
+      "description": "Classic SDXL. Works with LoRAs. More control than FLUX. 1024x1024 optimal.",
       "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors",
       "is_zipped": false,
       "recommended": true
     },
     {
+      "id": "juggernaut-xl-v9",
+      "name": "Juggernaut XL v9",
+      "category": "image",
+      "vram_gb": 8.2,
+      "size_gb": 6.5,
+      "description": "Most popular SDXL model. Photorealistic images with vibrant colors. Community favorite.",
+      "url": "https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/resolve/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "pony-diffusion-xl-v6",
+      "name": "Pony Diffusion XL V6",
+      "category": "image",
+      "vram_gb": 8.2,
+      "size_gb": 6.5,
+      "description": "Best anime/furry SDXL model. Huge community, massive LoRA library. Tag-based prompting.",
+      "url": "https://huggingface.co/AstraliteHeart/pony-diffusion-v6-xl/resolve/main/ponyDiffusionV6XL_v6StartWithThisOne.safetensors",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "realistic-vision-v51",
+      "name": "Realistic Vision V5.1",
+      "category": "image",
+      "vram_gb": 4.5,
+      "size_gb": 2.1,
+      "description": "BEST photorealistic SD 1.5. Amazing faces and lighting. Fast img2img at 512x512.",
+      "url": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE/resolve/main/Realistic_Vision_V5.1_fp16-no-ema.safetensors",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "dreamshaper-8",
+      "name": "DreamShaper 8",
+      "category": "image",
+      "vram_gb": 4.5,
+      "size_gb": 2,
+      "description": "Versatile SD 1.5. Great for both realistic and artistic styles. Excellent img2img.",
+      "url": "https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "deliberate-v2",
+      "name": "Deliberate V2",
+      "category": "image",
+      "vram_gb": 4.5,
+      "size_gb": 4.3,
+      "description": "Highly detailed SD 1.5. Fantastic for portraits and concept art. Community classic.",
+      "url": "https://huggingface.co/XpucT/Deliberate/resolve/main/Deliberate_v2.safetensors",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "anything-v5",
+      "name": "Anything V5",
+      "category": "image",
+      "vram_gb": 4.5,
+      "size_gb": 2.3,
+      "description": "Top anime/manga SD 1.5 model. Vibrant colors, detailed characters. Huge LoRA support.",
+      "url": "https://huggingface.co/stablediffusionapi/anything-v5/resolve/main/anything-v5-PrtRE.safetensors",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "epic-realism",
+      "name": "Epic Realism",
+      "category": "image",
+      "vram_gb": 4.5,
+      "size_gb": 2,
+      "description": "Cinematic photorealistic SD 1.5. Great for dramatic portraits and landscapes.",
+      "url": "https://huggingface.co/emilianJR/epiCRealism/resolve/main/epiCRealismNaturalSin.safetensors",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
       "id": "sd15-base",
-      "name": "Stable Diffusion 1.5",
+      "name": "Stable Diffusion 1.5 Base",
       "category": "image",
       "vram_gb": 4.5,
       "size_gb": 4.2,
-      "description": "Classic SD 1.5 base model. Fast img2img at 512x512. Works with thousands of community LoRAs.",
+      "description": "Original SD 1.5. Good starting point for learning. Works with all community LoRAs.",
       "url": "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors",
       "is_zipped": false,
-      "recommended": true
+      "recommended": false
     },
     {
       "id": "sd15-inpainting",
@@ -86,7 +207,7 @@
       "category": "image",
       "vram_gb": 4.8,
       "size_gb": 14.1,
-      "description": "Remove and replace parts of images with AI. Upload mask to control what changes.",
+      "description": "Remove and replace parts of images with AI. Upload mask to control what changes. 512x512.",
       "url": "https://huggingface.co/sd-legacy/stable-diffusion-inpainting",
       "is_zipped": false,
       "recommended": true
@@ -119,7 +240,7 @@
       "category": "audio",
       "vram_gb": 0.3,
       "size_gb": 0.16,
-      "description": "Fast natural TTS. Multiple voices. Best for real-time chat.",
+      "description": "Fast natural TTS. Multiple voices (American, British male/female). Best for real-time chat.",
       "url": "https://huggingface.co/hexgrad/Kokoro-82M/resolve/main/kokoro-v0_19.onnx",
       "is_zipped": false,
       "recommended": true
@@ -130,8 +251,19 @@
       "category": "audio",
       "vram_gb": 2.1,
       "size_gb": 1.5,
-      "description": "Accurate speech recognition. Good for transcription and voice commands.",
+      "description": "Accurate speech recognition. Good for transcription and voice commands. Multi-language.",
       "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin",
+      "is_zipped": false,
+      "recommended": true
+    },
+    {
+      "id": "piper-en-us-lessac-medium",
+      "name": "Piper Lessac Medium",
+      "category": "audio",
+      "vram_gb": 0.1,
+      "size_gb": 0.063,
+      "description": "FASTEST offline TTS. CPU-only, instant voice. Perfect for quick notifications and testing.",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx",
       "is_zipped": false,
       "recommended": true
     }
